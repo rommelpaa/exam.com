@@ -1,0 +1,641 @@
+/*
+Theme Name: 
+Theme URI: http://
+Author: 
+Author URI: http://
+Description: Main Stylesheet
+*/
+
+
+/* =Reset
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video                { background:transparent; border:0; margin:0; padding:0; }
+
+
+
+/* =Fonts
+-------------------------------------------------------------- */
+
+
+
+/* =Structure
+-------------------------------------------------------------- */
+
+/* The main theme structure */
+
+
+
+/* =Global Elements
+-------------------------------------------------------------- */
+body
+{
+	background: none repeat scroll 0 0 #f5f5f5 !important;
+	font-family: "Ruda",'helvetica',sans-serif;
+	font-weight: 400;
+}
+a
+{
+	font-weight:normal;
+}
+a:hover
+{
+	text-decoration:none;
+}
+
+label
+{
+	font-weight:400;
+}
+.fa
+{
+	font-family: FontAwesome,"Ruda",'helvetica';
+}
+
+.cursor
+{
+	cursor: pointer;
+}
+
+.displaynone
+{
+	display:none !important;
+}
+.displayblock
+{
+	display:block !important;
+}
+
+.no_padding
+{
+	padding: 0px;
+}
+
+.c_padding
+{
+	padding:20px 10px;
+}
+.c_paddingDefault
+{
+	padding:10px;
+}
+.c_paddingSides
+{
+	padding:0 10px;
+}
+
+.c_paddingTitle
+{
+	padding: 20px 10px 0
+}
+
+.c_bg-navyblue
+{
+	background: #2e3192 !important;
+	color: #ffffff;
+}
+
+
+
+.c_bg-colorprimary
+{
+	background:#008fd0 !important;
+	color: #fff;
+}
+.c_bg-primary
+{
+	background-color: #337ab7 !important;
+	color: #fff;
+} 
+.c_bg-success
+{
+	background-color: #dff0d8 !important;
+} 
+.c_bg-info
+{
+	background-color: #d9edf7 !important;
+} 
+.c_bg-warning
+{
+	background-color: #fcf8e3 !important;
+} 
+.c_bg-danger
+{
+	background-color: #f00000 !important;
+} 
+.c_cursor-pointer
+{
+	cursor:pointer;
+}
+
+.c_gray
+{
+	color:#989898;
+}
+
+.c_color-navyblue
+{
+	color: #2e3192;
+}
+.c_color-colorprimary
+{
+	color: #008fd0;
+}
+.c_color-primary
+{
+	color: #337ab7;
+}
+.c_color-success
+{
+	color: #dff0d8;
+} 
+.c_color-info
+{
+	color: #d9edf7;
+} 
+.c_color-warning
+{
+	color: #fcf8e3;
+} 
+.c_color-danger
+{
+	color: #f00000;
+} 
+
+.mt
+{
+    margin-top: 25px;
+}
+.mb
+{
+    margin-bottom: 25px;
+}
+
+.white-panel 
+{
+	background: none repeat scroll 0 0 #ffffff;
+    text-align: center;
+}
+
+.pn 
+{
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    height: 250px;
+}
+.pn-content 
+{
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-input
+{
+   display: block;
+}
+
+.btn-input .btn.form-control 
+{
+	text-align: left;
+}
+
+.btn-input .btn.form-control span:first-child 
+{
+   left: 10px;
+   overflow: hidden;
+   position: absolute;
+   right: 25px;
+}
+
+.btn-input .btn.form-control .caret 
+{
+   margin-top: -1px;
+   position: absolute;
+   right: 10px;
+   top: 50%;
+}
+
+.dropdown-menu.c_customdropdown
+{
+	width:100%;
+}
+
+/* Main global 'theme' and typographic styles */
+
+
+
+/* =Header
+-------------------------------------------------------------- */
+
+/* =Menu
+-------------------------------------------------------------- */
+
+.navbar-default
+{
+    background-image: linear-gradient(to bottom, #008fd0 0px, #008fd0 100%);
+    border-radius: 0;
+	border:none;
+	border-bottom:1px solid #315fb0;
+    color: #ffffff !important;
+	height:54px;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:100;
+}
+.navbar-default .navbar-brand 
+{
+    color: #FFFFFF;
+    margin-left: 0 !important;
+    padding: 1px 0px;
+}
+
+.navbar-default .btn-default:hover, .navbar-default .btn-default:focus
+{
+	background: none repeat scroll 0 0 transparent;
+	color:#2e3192;
+	border-color:#2e3192;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+{
+	color:#2e3192;
+}
+
+
+
+.navbar-default button, .navbar-default .btn-logout
+{
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+    margin: 10px 0;
+    text-shadow: none;
+	outline: medium none;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color:#FFFFFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus 
+{
+    background-color: transparent;
+    border-color: #888;
+}
+
+.c_color
+{
+	color: #017dc7;
+}
+
+.c_menu_toggle 
+{
+    border: medium none !important;
+    border-radius: 4px;
+    float: left;
+    font-size: 25px;
+    padding: 4px 10px;
+    position: relative;
+}
+
+.c_menu_toggle:hover
+{
+	color:#2e3192;
+}
+
+.menu_notification 
+{
+    display: inline-block;
+    padding: 5px 65px;
+}
+.menu_notification button
+{
+	margin-right: 15px;
+	outline: medium none;
+}
+.badge.c_badge
+{
+    background: none repeat scroll 0 0 #3e43a1;
+    position: absolute;
+    top: 5px;
+}
+
+/* =Content
+-------------------------------------------------------------- */
+
+.loaderpage .modal-content
+{
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	box-shadow: none;
+	color: #ffffff;
+	font-size: 80px;
+	margin-top:45%;
+}
+
+.main-content
+{
+	margin-top:54px;
+}
+
+.primarypict
+{
+    border-radius: 30px;
+    height: 62px;
+    margin: 20px auto 0;
+    overflow: hidden;
+    position: relative;
+    width: 62px;
+}
+
+.left-panel
+{
+	background:#e2e2e2;
+	position:fixed;
+	left:0;
+	overflow-y:auto;
+	height:100%;
+	width:210px;
+	z-index:100;
+	
+}
+.left-panel p
+{
+	padding:10px;
+}
+.left-panel .primarypict
+{
+    border-radius: 30px;
+    height: 62px;
+    margin: 20px auto 0;
+    overflow: hidden;
+    position: relative;
+    width: 62px;
+}
+
+.left-panel ul.menulist
+{
+    display: inline;
+    list-style: outside none none;
+    position: relative;
+}
+
+.left-panel ul.menulist > li > a
+{
+	color:#000000;
+	display:block;
+	font-size:12px;
+	padding:10px;
+	text-decoration:none;
+}
+.left-panel ul.menulist > li > a:hover, .left-panel ul.menulist> li > a:focus, .left-panel ul.menulist > li > a.active
+{
+	background:#008fd0;
+	color:#ffffff;
+	font-weight:bold;
+}
+.content-panel
+{
+	position:relative;
+	margin-left:210px;
+	word-wrap: break-word;
+}
+
+
+
+.content-panel .thumblist
+{
+    color: #008fd0;
+	position: relative;
+}
+.content-panel .thumblist .thumb-title
+{
+	background: none repeat scroll 0 0 #f6f6f6;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.content-panel .thumblist .thumb-fa-logo
+{
+	font-size: 110px;
+}
+
+.content-panel .thumblist .thumb-img-logo
+{
+	padding-top: 50px;
+}
+.content-panel .thumblist button
+{
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #008fd0;
+    color: #008fd0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+	width:75px;
+}
+.content-panel .thumblist button:hover
+{
+	background-color: #2e3192;
+	color:#fff;
+}
+
+.content-panel .thumblist img
+{
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.content-panel .right-panel
+{
+	background: none repeat scroll 0 0 #ffffff;
+    padding: 10px;	
+}
+
+.content-panel .right-panel .fa.fa-circle
+{
+	color: #2e3192;
+}
+
+
+.content-panel .right-panel .right-panel-content
+{
+	border-bottom: 1px solid #2e3192;
+
+}
+.content-panel .right-panel .right-panel-content:last-child
+{
+	border-bottom: none !important;
+}
+
+.ui-widget-content
+{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: medium none;
+}
+.ui-datepicker
+{
+	padding: 0px;
+}
+.ui-datepicker-calendar th, .ui-datepicker-calendar td, .ui-datepicker-calendar tbody
+{
+	background: none repeat scroll 0 0 #2e3192 !important;
+}
+.ui-datepicker-calendar tr
+{
+	border-bottom: 1px solid #FFFFFF;
+	color: #ffffff !important;
+}
+.ui-datepicker-calendar tr:last-child
+{
+	border:none;
+}
+.ui-datepicker-calendar tr td
+{
+	text-align: center;
+	padding:0 !important;
+	border:0 none !important;
+}
+.ui-datepicker-calendar tr td a
+{ 
+	
+	display:block;
+	text-decoration:none;
+	text-align:center !important;
+	color: #ffffff !important;
+	padding:8px 0;
+}
+.ui-datepicker-calendar tr td a:hover
+{
+	background:#017dc7 none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active 
+{
+	background:#017dc7 none;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-state-highlight a 
+{
+	background: #017dc7 none;
+}
+.ui-datepicker-header
+{
+	background: none repeat scroll 0 0 #017dc7;
+	border-bottom: 1px solid #fff !important;
+	border-top: 1px solid #fff !important;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+	position:relative;
+	text-align: center;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border:medium none;
+}
+.ui-corner-all
+{
+	border: medium none;
+	border-radius:0px;
+}
+.ui-datepicker .ui-datepicker-prev-hover
+{
+	top: 2px !important;
+	left: 2px !important;	
+}
+.ui-datepicker .ui-datepicker-next-hover
+{
+	top: 2px !important;
+	right: 2px !important;	
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+	background: none;
+	border: medium none;
+	cursor:pointer;
+	
+}
+
+
+
+
+/* =Connect
+-------------------------------------------------------------- */
+.connect-content
+{
+    border-radius: 5px;
+    margin: 100px auto 0;
+    max-width: 330px;
+	text-align: left;
+}
+.connect-content .connect-title
+{
+	background: none repeat scroll 0 0 #008fd0;
+	border-radius: 5px 5px 0 0;
+    color: #fff;
+	font-size: 20px;
+    padding: 20px;
+	text-align: center;
+}
+
+.connect-content .registration {
+    text-align: center;
+}
+
+/* =Asides
+-------------------------------------------------------------- */
+
+/* =Gallery listing
+-------------------------------------------------------------- */
+
+
+
+/* =Attachment pages
+-------------------------------------------------------------- */
+
+
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+
+
+/* =Comments
+-------------------------------------------------------------- */
+
+
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+
+
+/* =Footer
+-------------------------------------------------------------- */
+
+
+/*------------Custom in bootstrap-----------*/
+.control-label 
+{
+    line-height: 32px;
+}
+.breadcrumb
+{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.breadcrumb > li + li:before
+{
+	content: '|';
+}
+
+
